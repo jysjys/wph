@@ -1,0 +1,40 @@
+{
+	"slider":[
+		{
+			"id": 151,
+			"name": "驱蚊防晒",
+			"orders": 5,
+			"picurl": "http://image.huanqiuxiaozhen.com/%E7%84%A6%E7%82%B9%E5%9B%BE/2017_5_19_1495174386313",
+			"targeturl": "http://mp.weixin.qq.com/s/a7SX_2Xo4Wpm2wQjD6KJoA",
+			"distributorid": "all"
+		}, {
+			"id": 150,
+			"name": "520",
+			"orders": 4,
+			"picurl": "http://image.huanqiuxiaozhen.com/%E7%84%A6%E7%82%B9%E5%9B%BE/2017_5_19_1495174115476",
+			"targeturl": "http://mp.weixin.qq.com/s/BOyiplGO2D4WuD_3i731zQ",
+			"distributorid": "all"
+		}, {
+			"id": 152,
+			"name": "清仓",
+			"orders": 4,
+			"picurl": "http://image.huanqiuxiaozhen.com/%E7%84%A6%E7%82%B9%E5%9B%BE/2017_5_31_1496196399668",
+			"targeturl": "http://wx.huanqiuxiaozhen.com/search-result.html?keywords=%E6%B8%85%E4%BB%93",
+			"distributorid": "all"
+		}, {
+			"id": 130,
+			"name": "围兜",
+			"orders": 2,
+			"picurl": "http://image.huanqiuxiaozhen.com/%E7%84%A6%E7%82%B9%E5%9B%BE/2016_9_18_1474194498240",
+			"targeturl": "http://wx.huanqiuxiaozhen.com/search-result.html?keywords=%E5%9B%B4%E5%85%9C",
+			"distributorid": "all"
+		}, {
+			"id": 129,
+			"name": "绘本",
+			"orders": 1,
+			"picurl": "http://image.huanqiuxiaozhen.com/%E7%84%A6%E7%82%B9%E5%9B%BE/2016_9_18_1474194376998",
+			"targeturl": "http://mp.weixin.qq.com/s?__biz=MzI4NjA0NDY5MA==&mid=2651959962&idx=2&sn=1d21dbfcf1c7c42687981f56262ba60b&scene=4#wechat_redirect",
+			"distributorid": "all"
+		}
+	]
+}

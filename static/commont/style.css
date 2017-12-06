@@ -1,0 +1,255 @@
+a,
+body,
+button,
+input {
+  text-decoration: none;
+  color: #1b0d10;
+  border: none;
+  outline: none;
+}
+.t-c,
+table,
+th {
+  text-align: center;
+}
+label {
+  font-weight: normal;
+}
+a,
+button,
+input,
+optgroup,
+select,
+textarea {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a,
+img {
+  -webkit-touch-callout: none;
+}
+.l-c,
+table,
+th {
+  vertical-align: middle;
+}
+i {
+  font-style: normal;
+}
+input,
+textarea {
+  outline: none;
+}
+a,
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+tt,
+ul,
+var {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: none;
+  box-sizing: border-box;
+}
+img {
+  border: none;
+}
+ul,
+li {
+  list-style-type: none;
+}
+body {
+  background: #f2f2f2;
+  -webkit-overflow-scrolling: touch;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: tahoma, arial, 'Hiragino Sans GB', sans-serif;
+}
+.clear:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.container {
+  padding: 0 10%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 100%;
+}
+@media only screen and (orientation: landscape) {
+  .am-hide-portrait,
+  .am-show-landscape {
+    display: inherit !important;
+  }
+}
+.circle-rd{
+	display: inline-block;
+}
+.circle-rd input[type="radio"],
+.circle-rd input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 0.35rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  outline: none;
+  vertical-align: middle;
+}
+.circle-rd input[type="radio"]:checked,
+.circle-rd input[type="checkbox"]:checked {
+  background: greenyellow;
+  color: #fff;
+  border: none;
+}
+.circle-rd input[type="radio"]:checked:after,
+.circle-rd input[type="checkbox"]:checked:after {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  content: "\e621";
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.sq-rd input[type="radio"],
+.sq-rd input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 0.35rem;
+  height: 0.35rem;
+  line-height: 0.35rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  vertical-align: middle;
+  outline: none;
+}
+.sq-rd input[type="radio"]:checked,
+.sq-rd input[type="checkbox"]:checked {
+  background: greenyellow;
+  color: #fff;
+  border: none;
+}
+.sq-rd input[type="radio"]:checked:after,
+.sq-rd input[type="checkbox"]:checked:after {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  content: "\e621";
+  vertical-align: middle;
+}
+.btn {
+  width: 100%;
+  line-height: 2.333333;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  background: #0C79B1;
+  text-align: center;
+  color: #fff;
+}
+.toast-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  display: none;
+}
+.toast-box .toast {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.66);
+  color: #fff;
+  border-radius: 5px;
+  line-height: 2.333;
+  width: 70%;
+  text-align: center;
+  opacity: 0;
+}
+.loading-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: none;
+}
+.loading-box .loading {
+  position: fixed;
+  width: 7.6em;
+  height: 7.6em;
+  background: rgba(0, 0, 0, 0.66);
+  color: #fff;
+  border-radius: 5px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.loading-box .loading-img {
+  margin: 20px auto 10px auto;
+  width: 3em;
+  height: 3em;
+  background: url(../img/loading.png) no-repeat center center;
+  background-size: 100% 100%;
+  animation: loading 1s linear infinite;
+}
+@keyframes loading {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
